@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
-      - run: sudo apt install -y meson xgettext
+      - run: sudo apt install -y meson ninja-build
       - run: ./launch.sh
